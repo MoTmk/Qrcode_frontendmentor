@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="master.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -51,67 +52,3 @@
     </footer>
   </body>
 </html>
-<style>
-  * {
-    box-sizing: border-box;
-    font-size: 15px;
-    font-family: "Outfit";
-  }
-  :root {
-    --white: hsl(0, 0%, 100%);
-    --gray: hsl(212, 45%, 89%);
-    --blue: hsl(220, 15%, 55%);
-    --blue-dark: hsl(218, 44%, 22%);
-  }
-  body {
-    background-color: var(--gray);
-  }
-  h2 {
-    color: var(--blue-dark);
-    margin: 0;
-    padding: 10px 5px 0;
-    font-weight: 700;
-    font-size: 22px;
-  }
-  .card {
-    width: 300px;
-    height: 450px;
-    padding: 15px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #ddd inset;
-  }
-  .card img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  .card p {
-    padding: 14px 14px;
-    margin: 0;
-    color: #95989f;
-    line-height: 1;
-    font-size: 15px;
-    font-weight: 400;
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  @media (max-width: 375px) {
-    .card {
-      width: 3 00px;
-    }
-    footer {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-</style>
